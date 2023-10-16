@@ -1,0 +1,420 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background: #0e1217;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 0.5em;
+  }
+   
+::-webkit-scrollbar-track {
+    background: transparent;
+  }
+   
+::-webkit-scrollbar-thumb {
+    background-color: #1c1f26;
+  }
+
+.navbar {
+    background: #1c1f26 !important;
+    color: white !important;
+}
+
+.card {
+    background: #1c1f26 !important;
+    color: white !important;
+}
+
+.custom-btn {
+    border: 1px solid #ce3df3 !important;
+    color: #ce3df3 !important;
+    font-weight: 600;
+}
+
+.custom-btn:hover {
+    background: #ce3df3 !important;
+    color: #1c1f26  !important;
+}
+
+
+.modal-content {
+    background: #1c1f26 !important;
+    color: white !important;
+}
+
+input , textarea{
+    background-color: #a8b3cf14 !important;
+    border-color: #a8b3cf33 !important;
+    color: white !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.modal-header , .modal-footer  {
+    border-color:#a8b3cf33 !important ;
+}
+
+.modal-header .btn-close {
+    color: white !important;
+}
+
+.form-control:focus {
+    border-color: #ce3df3 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #cf3df337 !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+
+.add-new-post-btn {
+    position: fixed;
+    z-index: 20;
+    bottom: 60px;
+    right: 60px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    outline: none;
+    background: transparent;
+    color: #ce3df3;
+    border: 1px solid #ce3df3;
+    transition: 0.4s;
+}
+
+.add-new-post-btn:hover {
+    background: #ce3df3;
+    color: #0e1217;
+}
+
+.add-new-post-btn svg {
+    width: 30px !important;
+    height: 30px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.error {
+    border: 1px solid #d00000 !important;
+}
+
+
+.form-control.error:focus {
+    border-color: #d00000 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #f33d3d37 !important;
+}
+
+
+.error-msg {
+    color: #d00000;
+}
+
+.user-detalis.container img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #1c1f26 ;
+    outline: 2px solid #ce3df3;
+}
+
+.user-detalis.container .col-9 {
+    background: #1c1f26 !important;
+    color: white !important;
+    padding: 20px;
+}
+
+
+.profile-detalis.container img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #1c1f26 ;
+    outline: 2px solid #ce3df3;
+}
+
+.profile-detalis.container .col-9 {
+    background: #1c1f26 !important;
+    color: white !important;
+    padding: 20px;
+}
+
+.c-grey {
+    color: #eee;
+}
+
+
+img {
+    object-fit: cover;
+}
+
+.main-title {
+    color: white;
+}
+
+p {
+    color: #a8b3cf;
+}
+
+
+.comment {
+    background-color: #a8b3cf14;
+    padding: 10px;
+    width: fit-content;
+}
+
+
+input::placeholder {
+    color: #a8b3cf !important;
+}
+
+
+.add-comment svg {
+    position: absolute;
+    right: 28px;
+    color: #a8b3cf !important;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.add-comment svg:hover {
+    color: white !important;
+}
+
+
+div:where(.swal2-container).swal2-center>.swal2-popup {
+    background: #1c1f26 !important;
+    color: white !important;
+}
+
+
+.btn-danger {
+    margin-right: 10px;
+}
+
+svg {
+    margin-right: 5px;
+}
+
+.card {
+    margin: 40px 0 !important;
+}
+
+
+.posts.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+.add-comment img {
+    width: 38px !important;
+    height: 38px !important;
+}
+
+
+a {
+    cursor: pointer;
+}
+
+.pfp-box {
+    position: relative;
+}
+
+.pfp-box .change-pfp {
+    background-color: #ce3df3;
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pfp-box svg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+
+.search-form {
+    position: relative;
+    margin-right: 10px;
+    z-index: 100;
+}
+
+.search-form .search-results {
+    position: absolute;
+    background: #1c1f26 !important;
+    padding: 20px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 25px;
+    border: 1px solid #a8b3cf33;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.search-form .search-results::-webkit-scrollbar {
+    width: 0.25em;
+    overflow: hidden;
+  }
+   
+  .search-form .search-results::-webkit-scrollbar-track {
+    background: transparent;
+
+  }
+   
+  .search-form .search-results::-webkit-scrollbar-thumb {
+    background-color: #a8b3cf33;
+    border-radius: 10px;
+
+  }
+.search-form .search-results li {
+    padding: 5px 0;
+}
+
+
+
+.search-form .search-results li img {
+    border: 2px solid #ce3df3;
+}
+
+.x-close {
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    right: 4px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #a8b3cf33;
+    margin-bottom: 10px;
+}
+
+.x-close:hover {
+    color: #ce3df3;
+}
+
+.non-logged-in button:first-child {
+    margin-right: 10px !important;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive !important;
+    font-weight: 600;
+}
+
+
+
+
+
+
+@media (max-width:769px) {
+    .add-new-post-btn {
+        width: 50px;
+        height: 50px;
+        right: 20px;
+    }
+    .add-new-post-btn svg {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .user-detalis.container img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .user-detalis.container .data h5 {
+        font-size: 13px ;
+    }
+
+
+    .profile-detalis.container img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .profile-detalis.container .data h5 {
+        font-size: 13px ;
+    }
+
+    .user-actions {
+        margin-top: 10px;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    input::placeholder {
+        font-size: 13px;
+    }
+    .add-comment svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .pfp-box .change-pfp {
+        background-color: #ce3df3;
+        width: 25px;
+        position: absolute;
+        height: 25px;
+        bottom: 0;
+        right: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .pfp-box svg {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+    }
+
+    .edit-posst-btn {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    .search-form {
+        margin-bottom: 10px;
+    }
+
+    .search-form .search-results {
+        top: 22px;
+        left: -2px;
+    }
+
+    .x-close {
+        top: 55px;
+        right: -1px;
+    }
+
+    b {
+        font-size: 13px;
+    }
+}
+
+
